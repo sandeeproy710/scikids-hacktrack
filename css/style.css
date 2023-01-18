@@ -180,6 +180,18 @@ a{
     padding: 2% 4%;
     margin-top: 5%;
 }
+.youtube{
+    width: 560px;
+    height: 315px;
+}
+
+@media screen and (max-width: 700px) {
+  .youtube{
+    width: 315px;
+    height: 315px;
+  }
+    
+}
 
 /* Footer section */
 
