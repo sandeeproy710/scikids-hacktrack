@@ -195,7 +195,12 @@ a{
   .youtube{
     width: 315px;
     height: 315px;
+      
   }
+   .pri-top{
+       padding: 2% 5%;
+    }
+    
     
 }
 
