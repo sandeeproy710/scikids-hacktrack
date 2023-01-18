@@ -1,0 +1,225 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+ 
+h1, h2, h3 {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+p{
+    color: grey;
+}
+
+/* Heading Section */
+
+.big-heading{
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+.sec-heading{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.mid-heading{
+    font-weight: bold;
+}
+
+
+/* Coloring section */
+
+.white-section{
+    background-color: #fff;
+}
+.colored-section{
+    background-color: #FC5185;
+    color: #fff;
+}
+
+/* Title Section */
+
+#title{
+    color: #fff;
+    background-color: #364F6B;
+    text-align: left;
+    
+}
+
+
+/* Navbar Style */
+
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+
+#navbar-1{
+    padding: 0 0 2.5rem;
+}
+.kin{
+    color: #FC5185;
+}
+
+
+.navbar-brand{
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+
+.nav-item{
+    padding: 0 18px;
+}
+
+
+.nav-link{
+    color: #fff;
+
+}
+
+
+.container-fluid{
+    padding: 2% 15% 7% ;
+}
+
+
+.download-icon{
+    padding-bottom: 5px;
+}
+
+
+/* Download Button */
+
+
+.downlaod-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Title Image */
+
+
+.title-img{
+    width: 30%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 14%;
+
+}
+
+
+/* Feature Section */
+
+
+#features{
+    padding: 7% 15%;
+    position: relative;
+}
+
+
+.feature-set{
+    padding: 0 5%;
+    
+}
+
+
+.icon {
+    color: #FC5185;
+    margin-bottom: 1rem;
+}
+
+
+.icon:hover{
+    color: #702c41;
+}
+
+
+/* Testimonial  */
+
+
+#testimonials{
+    padding-top: 3%;
+    color: #fff;
+
+}
+
+
+.testimonial-image{
+    width: 12%;
+    border-radius: 100%;
+}
+
+
+#press{
+    padding-bottom: 3%;
+}
+
+
+.press-icon{
+    padding: 5px 70px 15px;
+}
+
+/* Sign Up cards */
+
+#pricing{
+    padding: 5% 7%;
+
+}
+
+
+.sncol{
+    padding: 3% 2%;
+}
+
+
+/* End login  */
+
+
+#cta{
+    padding: 5% 15%;
+}
+
+.lsthead{
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 0 5%;
+}
+
+/* Footer */
+
+#footer{
+    padding: 3% 0;
+}
+
+
+.con-icon{
+    color: grey;
+    padding: 10px;
+}
+
+.cpyrit{
+    padding-top: 1rem; 
+}
+
+/* Responsive setting */
+
+@media screen and (max-width: 985px) {
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+        width: 35rem;
+
+    }
+    #title{
+        text-align: center;
+    }
+    
+}
